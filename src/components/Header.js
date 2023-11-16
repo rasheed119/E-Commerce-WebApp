@@ -11,7 +11,7 @@ const Header = () => {
   const { Cart } = useContext(CartContext);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 60 ? setisActive(true) : setisActive(false);
+      window.scrollY > 420 ? setisActive(true) : setisActive(false);
     });
   }, []);
   return (
